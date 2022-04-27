@@ -51,11 +51,12 @@ nav {
 
 .menu-secciones a:hover{
     color: #C9D1D9;
+    transition: color .25s;
 }
 
 main {
     grid-area: main;
-    background-color: black;
+    background-color: #222431;
 }
 
 h2 {
@@ -80,6 +81,10 @@ footer {
 /* -------------------------------------- */
 
 /* ESTILOS SECCIÓN INICIO */
+
+.inicio-fondo {
+    background-image: radial-gradient(#222431, rgb(220, 220, 220));
+}
 
 .inicio-contenedor {
     margin: 15px;
@@ -145,6 +150,7 @@ footer {
 .ticket:hover {
     color: beige;
     font-size: 16px;
+    transition: color .25s;
 }
 
 /* -------------------------------------- */
@@ -389,6 +395,10 @@ h3, label {
 
 .form div input {
     width: 238px;
+}
+
+.contacto-fondo, .discografia-fondo, .galeria-fondo {
+    background-image: radial-gradient(rgb(220, 220, 220), #222431);
 }
 
 /* -------------------------------------- */
