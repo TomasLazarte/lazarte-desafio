@@ -34,8 +34,8 @@ nav {
 }
 
 .home {
-    padding-left: 11px;
-    margin-left: 11px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .menu {
@@ -64,7 +64,6 @@ nav {
 
 main {
     grid-area: main;
-    background-color: #222431;
 }
 
 h2 {
@@ -78,9 +77,14 @@ footer {
     background-color: #171717;
 }
 
-.copyright {
+footer div {
     margin: 5px;
     padding: 5px;
+}
+
+.copyright {
+    padding-left: 10px;
+    margin-left: 10px;
     font-family: 'Roboto Slab', serif;
     color: beige;
 }
@@ -90,7 +94,7 @@ footer {
 /* ESTILOS SECCIÓN INICIO */
 
 .inicio-fondo {
-    background-image: radial-gradient(#222431, rgb(220, 220, 220));
+    background-image: radial-gradient(rgb(150, 150, 150), #222431);
 }
 
 .inicio-contenedor {
@@ -115,6 +119,7 @@ footer {
 .inicio-titulo {
     grid-area: titulo;
     margin-top: 30px;
+    color: black;
 }
 
 .inicio-tour {
@@ -134,7 +139,7 @@ footer {
     font-size: 15px;
     color: #C9D1D9;
     background-color: #222431;
-    border: solid white 3px;
+    border: solid black 3px;
     margin: 5px;
     padding: 5px;
 }
@@ -145,7 +150,7 @@ footer {
     font-size: 15px;
     color: #C9D1D9;
     background-color: #222431;
-    border: solid white 3px;
+    border: solid black 3px;
     margin: 5px;
     padding: 5px;
 }
@@ -164,6 +169,10 @@ footer {
 
 /* ESTILOS SECCIÓN ABOUT */
 
+.about-fondo {
+    background-color: #222431;
+}
+
 .about-contenedor {
     display: grid;
     grid-template-areas:
@@ -174,9 +183,9 @@ footer {
     gap: 10px;
     font-family: 'Roboto Slab', serif;
     color: beige;
-    margin: 15px;
-    padding: 15px;
-    margin-top: 50px;
+    margin: 70px;
+    padding: 70;
+    /* margin-top: 50px; */
     line-height: 2;
     align-items: center;
     font-size: 16px;
@@ -196,6 +205,7 @@ footer {
 
 .about-img-uno {
     grid-area: imagen-uno;
+    height: 600px;
 }
 
 .about-img-dos {
@@ -209,6 +219,10 @@ footer {
 /* -------------------------------------- */
 
 /* ESTILOS SECCIÓN DISCOGRAFÍA */
+
+.discografia-fondo {
+    background-image: radial-gradient(rgb(150, 150, 150), #222431);
+}
 
 .discografia-contenedor {
     display: grid;
@@ -269,13 +283,24 @@ footer {
     height: 300px;
 }
 
-.discografia-contenedor img:hover, .discografia-contenedor iframe:hover {
+.discografia-contenedor img:hover {
     height: 310px;
     width: 310px;
 }
+
+.discografia-contenedor iframe:hover {
+    height: 420px;
+    width: 310px;
+    transition: height .5s;
+}
+
 /* -------------------------------------- */
 
 /* ESTILOS SECCIÓN GALERÍA */
+
+.galeria-fondo {
+    background-image: radial-gradient(rgb(126, 99, 99), #222431);
+}
 
 .galeria-contenedor {
     display: grid;
