@@ -106,7 +106,6 @@ footer div {
 }
 
 .container {
-    margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -293,9 +292,40 @@ footer div {
 
 /* -------------------------------------- */
 
+/* ESTILOS SECCIÓN GALERÍA BOOTSTRAP */
+
+.galeria-fondo {
+    background-color: #171717;
+}
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+} 
+
+.galeria-fondo div div div img {
+    height: 400px;
+}
+
+.footer-inicio, .footer-galeria {
+    background-color: #F8F9FA;
+}
+
+.footer-inicio div, .footer-galeria div {
+    margin-left: -15px;
+}
+
+.footer-inicio div p, .footer-galeria div p {
+    color: #171717;
+    margin-left: -15px;
+}
+
 /* ESTILOS SECCIÓN GALERÍA */
 
-.galeria-contenedor {
+/* .galeria-contenedor {
     display: grid;
     grid-template-areas:
     "titulo-fotos"
@@ -393,7 +423,8 @@ footer div {
 .galeria-videos iframe:hover {
     width: 510px;
     height: 310px;
-}
+} */
+
 /* -------------------------------------- */
 
 /* ESTILOS SECCIÓN CONTACTO */
