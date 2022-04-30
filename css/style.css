@@ -19,15 +19,20 @@ body {
 
 header {
     grid-area: header;
-}
-
-.about-header, .discografia-header, .contacto-header {
     background-color: #171717;
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
 }
+
+/* .about-header, .discografia-header, .contacto-header {
+    background-color: #171717;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+} */
 
 nav {
     margin: 5px;
@@ -67,11 +72,12 @@ nav {
 
 main {
     grid-area: main;
-}
-
-.about-fondo, .discografia-fondo, .contacto-fondo {
     background-image: radial-gradient(rgb(120, 120, 120), #171717);
 }
+
+/* .about-fondo, .discografia-fondo, .contacto-fondo {
+    background-image: radial-gradient(rgb(120, 120, 120), #171717);
+} */
 
 h2 {
     font-family: 'Roboto Slab', serif;
@@ -101,7 +107,7 @@ footer div {
 
 /* ESTILOS SECCIÓN INICIO BOOTSTRAP */
 
-.inicio-fondo {
+/* .inicio-fondo {
     background-color: #171717;
 }
 
@@ -112,12 +118,12 @@ footer div {
 
 .primer-col, .segunda-col {
     font-size: 25px;
-}
+} */
 
 
 /* ESTILOS SECCIÓN INICIO */
 
-/* .inicio-contenedor {
+.inicio-contenedor {
     margin: 15px;
     padding: 15px;
     margin-top: 50px;
@@ -173,7 +179,7 @@ footer div {
     color: beige;
     font-size: 16px;
     transition: color .25s;
-} */
+}
 
 /* -------------------------------------- */
 
@@ -294,7 +300,7 @@ footer div {
 
 /* ESTILOS SECCIÓN GALERÍA BOOTSTRAP */
 
-.galeria-fondo {
+/* .galeria-fondo {
     background-color: #171717;
 }
 
@@ -321,11 +327,11 @@ footer div {
 .footer-inicio div p, .footer-galeria div p {
     color: #171717;
     margin-left: -15px;
-}
+} */
 
 /* ESTILOS SECCIÓN GALERÍA */
 
-/* .galeria-contenedor {
+.galeria-contenedor {
     display: grid;
     grid-template-areas:
     "titulo-fotos"
@@ -423,7 +429,7 @@ footer div {
 .galeria-videos iframe:hover {
     width: 510px;
     height: 310px;
-} */
+}
 
 /* -------------------------------------- */
 
