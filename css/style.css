@@ -58,16 +58,20 @@ nav {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
     color: beige;
+    transition: all .25s;
 }
 
 .menu-secciones {
     margin-right: 30px;
 }
 
-.menu-secciones a:hover{
+.menu-secciones a:hover {
     color: #C9D1D9;
-    transition: color .25s;
     text-decoration: underline;
+}
+
+.menu-secciones a:focus {
+    text-decoration: transparent;
 }
 
 main {
@@ -208,10 +212,12 @@ footer div {
 
 .about-texto-uno {
     grid-area: texto-uno;
+    text-shadow: black;
 }
 
 .about-texto-dos {
     grid-area: texto-dos;
+    text-shadow: black;
 }
 
 .about-img-uno {
@@ -454,12 +460,22 @@ h3, label {
     line-height: 1.5;
 }
 
-.logos-redes a img {
+.logos-redes div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos-redes div a {
+    color: transparent;
+}
+
+.logos-redes div a img {
     width: 30px;
     height: 30px;
 }
 
-.logos-redes a:hover img {
+.logos-redes div a:hover img {
     width: 40px;
     height: 40px;
 }
